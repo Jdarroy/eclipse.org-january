@@ -6,7 +6,7 @@
  - http://www.eclipse.org/legal/epl-v10.html
  -
  - Contributors:
- -   Initial API and implementation and/or initial documentation: The Eclipse 
+ -   Initial API and implementation and/or initial documentation: The Eclipse
  -   Scout Team
  -   Modifications for the Eclipse ICE website: Jay Jay Billings
  -
@@ -60,7 +60,7 @@ ol { list-style-position: inside; }
 ========================================================================== */
 .wrapper { position: relative; z-index: 2; left: 0%; background: #223660; height: 100%; overflow: auto; overflow-y: scroll; -webkit-overflow-scrolling: touch; }
 
-.radio label, 
+.radio label,
 .checkbox label { padding-left: 0; }
 .custom-checkbox input { opacity: 0; filter: alpha(opacity=0); position: absolute; }
 .custom-checkbox-fake { float: left; width: 21px; height: 21px; margin-right: 10px; background: url(images/sprite.png) -441px -79px no-repeat; }
@@ -111,7 +111,7 @@ ol { list-style-position: inside; }
 
 /* woud be nice to have dark transparent menu background when menu is displayed over header image, and white background otherwise
 .nav .dropdown:hover { background-color: rgba(96,96,96,0.8); display: block; border-top-left-radius: 5px; border-top-right-radius: 5px; }
-*/ 
+*/
 .nav .affix-top & .dropdown-menu { background-color: rgba(255, 255, 255, 0.75);}
 .nav .affix & .dropdown-menu { background-color: rgba(255, 255, 255);}
 
@@ -212,11 +212,11 @@ ol { list-style-position: inside; }
 /* .section-demo-content h4 { margin: 0 0 14px; font-family: 'Dax-Regular', sans-serif; font-size: 38px; } */
 .section-demo-content h4 { margin: 14px 0 14px 0; font-size: 21px; font-weight: 800; }
 .section-demo-content p { margin-bottom: 17px; font-size: 21px; }
-.section-demo-list p { margin-bottom: 12px; font-size: 19px; }  
+.section-demo-list p { margin-bottom: 12px; font-size: 19px; }
 .section-demo-list ul { list-style: none outside none; }
 .section-demo-list li ~ li { margin-top: 5px; }
 .section-demo-actions { margin-top: 17px; }
-.section-demo-actions .btn-default { padding: 7px 22px 9px 22px; border-width: 2px; } 
+.section-demo-actions .btn-default { padding: 7px 22px 9px 22px; border-width: 2px; }
 
 /* .section-demo-actions a { width: 600 } */
 .demo-btn { width: 200px }
@@ -284,7 +284,7 @@ ol { list-style-position: inside; }
 .form-contact h3 span { color: #fe9915; font-weight: bold; }
 .form-contact p { font-size: 18px; color: #fff; }
 
-.form-contact .has-error input { border-width: 3px; }  
+.form-contact .has-error input { border-width: 3px; }
 
 .form-contact .field,
 .form-contact .textarea { margin-top: 11px; padding-left: 40px; font-size: 15px; }
@@ -296,6 +296,12 @@ ol { list-style-position: inside; }
 #lname { background: #fff url(images/ico-user.png) 14px 14px no-repeat; }
 #email { background: #fff url(images/ico-mail.png) 12px 14px no-repeat; }
 #message { background: #fff url(images/ico-pen.png) 12px 7px no-repeat; }
+
+#linkContact{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+}
 
 .form-contact .checkbox { margin-top: 23px; }
 .form-label { font-size: 19px; color: #fff; }
@@ -355,7 +361,7 @@ ol { list-style-position: inside; }
 @media (max-width: 1200px) {
 	.benefit-entry { padding-right: 13px; padding-left: 13px; }
 	.section-testimonials .section-head h3 { font-size: 43px; }
-	.list-partners li ~ li { margin-left:20px; } 
+	.list-partners li ~ li { margin-left:20px; }
 	/* .testimonial blockquote { min-height: 201px; } */
 	.contacts .phone { font-size: 16px; }
 	.footer h5 { font-size: 17px; }
@@ -382,7 +388,7 @@ ol { list-style-position: inside; }
 @media (max-width: 767px) {
 
     #cboxTitle { visibility: hidden; }
-	
+
     .demo-btn-mobile { visibility: hidden; }
 
 	.nav-mobile { display: block; }
@@ -395,20 +401,20 @@ ol { list-style-position: inside; }
 
 	.header { background: transparent; }
 	.navbar-header { padding-left: 15px; }
-	.navbar-brand { width: 256px; height: 42px; margin-top: 10px; margin-left: 15px !important; background: url("images/eclipse_scout_complet_256_42.png");} 
-	
+	.navbar-brand { width: 256px; height: 42px; margin-top: 10px; margin-left: 15px !important; background: url("images/eclipse_scout_complet_256_42.png");}
+
 	.navbar-toggle { float: right; margin: 5px 10px 0 0; border: 2px; }
 	.navbar-toggle .icon-bar { height: 3px; }
-	
+
 	.navbar-collapse { background: #2a1f1a; }
 	.navbar-nav { float: none; }
-	
+
 	.intro { min-height: 530px !important; }
 	.intro .container { top: 100px; }
 	.intro-content h1 { font-size: 30px; }
 	.intro-content p { font-size: 18px; margin-bottom: 60px; }
 	.intro-actions a { margin-bottom: 75px; }
-	
+
 	.section-demo-image,
 	.section-with-image-image,
 	.section-tutorials-image { text-align: center; }
@@ -421,7 +427,7 @@ ol { list-style-position: inside; }
 	.section-benefits { padding-bottom: 20px; }
 	.benefit > .benefit-entry { display: block; }
 	.benefit-entries { display: none !important; }
-	
+
 	.feature-image { padding-bottom: 15px; text-align: center; }
 	.feature-image img { display: inline-block; }
 
@@ -435,6 +441,6 @@ ol { list-style-position: inside; }
 
 	.footer-bar { padding: 10px; }
 	.footer-bar-logo { float: left; display: block; }
-	
+
 	.footer { padding-left: 50px; }
 }

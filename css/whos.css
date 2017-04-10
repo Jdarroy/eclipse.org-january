@@ -1,0 +1,106 @@
+html{
+  margin:0;
+  padding:0;
+  background: url(../images/fond.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+body{
+  font-family: Verdana, sans-serif;
+  font-size: 100%;
+  background-size: cover;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.whos{
+  color: #F4D03F;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 40%;
+  height: 40%;
+  font-family:"LinLibertine_R";
+  font-size: 250%;
+  cursor: default;
+}
+
+@font-face {
+  font-family: "LinLibertine_R";
+  src: url('../polices/Caramella_Regular.ttf') format('truetype');
+}
+
+.tout{
+  color: white;
+  background-color: black;
+  margin-top: -10px;
+  text-align: center;
+  display: block;
+}
+
+.tout li{
+  color: white;
+  margin-left: 4%;
+  margin-right: 4%;
+  display:inline;
+  text-align: center;
+}
+
+.tout li:hover{
+  color: grey;
+  margin-left: 4%;
+  margin-right: 4%;
+  display:inline;
+  text-align: center;
+}
+
+.tout :visited{
+  color: white;
+  margin-left: 4%;
+  margin-right: 4%;
+  display:inline;
+  text-align: center;
+  text-decoration: none;
+}
+
+.tout:visited{
+  color: grey;
+  margin-left: 4%;
+  margin-right: 4%;
+  display:inline;
+  text-align: center;
+  text-decoration: none;
+}
+
+.daw, .gda, .ibm, .nav{
+  cursor: pointer;
+}
+
+.onglets{
+	list-style-type:none;
+	overflow:hidden;
+	margin:10px 0;
+	padding:0;
+}
+
+.contain{
+  margin: 5%;
+  text-align: justify;
+}
+
+.daw_div, .gda_div, .ibm_div, .nav_div{
+  background: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 80%;
+  height: 60%;
+  text-align: center;
+  cursor: default;
+}

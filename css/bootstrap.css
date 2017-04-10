@@ -6,7 +6,7 @@
  * Designed and built with all the love in the world by @mdo and @fat.
  */ /*! normalize.css v2.1.3 | MIT License | git.io/normalize */ article   ,
 aside
-, details  , figcaption  , figure  , footer  , header  , hgroup  , main  , nav 
+, details  , figcaption  , figure  , footer  , header  , hgroup  , main  , nav
 , section  , summary   { display : block ; } audio   , canvas  , video   {
 display : inline-block ; } audio   :
 not ([controls ]){display :none ;height:0;}[hidden],template{display:none;}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}body{margin:0;}a{background:transparent;}a:focus{outline:thindotted;}a:active,a:hover{outline:0;}h1{margin:0.67em0;font-size:2em;}abbr[title]{border-bottom:1pxdotted;}b,strong{font-weight:bold;}dfn{font-style:italic;}hr{height:0;-moz-box-sizing:content-box;box-sizing:content-box;}mark{color:#000;background:#ff0;}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em;}pre{white-space:pre-wrap;}q{quotes:"\201C" "\201D" "\2018" "\2019";
@@ -734,6 +734,39 @@ pre code {
 }
 
 .row:after {
+  clear: both;
+}
+
+.linkContact {
+  margin-right: -15px;
+  margin-left: -15px;
+  padding-left: : 20%;
+  padding-right: : 20%;
+  text-align: center;
+  width: 20%;
+}
+.linkContact2 {
+  padding-left: : 10%;
+  padding-right: : 10%;
+}
+
+.linkContact:before,
+.linkContact:after {
+  display: table;
+  content: " ";
+}
+
+.linkContact:after {
+  clear: both;
+}
+
+.linkContact:before,
+.linkContact:after {
+  display: table;
+  content: " ";
+}
+
+.linkContact:after {
   clear: both;
 }
 
