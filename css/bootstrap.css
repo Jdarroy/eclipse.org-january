@@ -1736,6 +1736,10 @@ table th[class*="col-"] {
 }
 
 @media (max-width: 767px) {
+
+  .icones{
+    display: none;
+  }
   .table-responsive {
     width: 100%;
     margin-bottom: 15px;
@@ -3705,6 +3709,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 @media (max-width: 767px) {
+
+  .icones{
+    display: none;
+  }
+
   .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;
@@ -3786,6 +3795,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 @media (max-width: 767px) {
+
+  .icones{
+    display: none;
+  }
+
   .navbar-form .form-group {
     margin-bottom: 5px;
   }
@@ -3926,6 +3940,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 @media (max-width: 767px) {
+
+  .icones{
+    display: none;
+  }
+
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #777777;
   }
@@ -4042,6 +4061,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 @media (max-width: 767px) {
+
+  .icones{
+    display: none;
+  }
+
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
     border-color: #080808;
   }

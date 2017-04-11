@@ -16,31 +16,31 @@ $ongletItems.click(function(){
   var dest = $(this).attr('href');
 
   if (dest == "#daw"){
-    $('#gda').hide();
-    $('#ibm').hide();
-    $('#nav').hide();
-    $('#daw').show();
+    $('#gda').hide('slow','linear');
+    $('#ibm').hide('slow','linear');
+    $('#nav').hide('slow','linear');
+    $('#daw').show('slow','linear');
   }
 
   if (dest == "#gda"){
-    $('#gda').show();
-    $('#ibm').hide();
-    $('#nav').hide();
-    $('#daw').hide();
+    $('#gda').show('slow','linear');
+    $('#ibm').hide('slow','linear');
+    $('#nav').hide('slow','linear');
+    $('#daw').hide('slow','linear');
   }
 
   if (dest == "#ibm"){
-    $('#gda').hide();
-    $('#ibm').show();
-    $('#nav').hide();
-    $('#daw').hide();
+    $('#gda').hide('slow','linear');
+    $('#ibm').show('slow','linear');
+    $('#nav').hide('slow','linear');
+    $('#daw').hide('slow','linear');
   }
 
   if (dest == "#nav"){
-    $('#gda').hide();
-    $('#ibm').hide();
-    $('#nav').show();
-    $('#daw').hide();
+    $('#gda').hide('slow','linear');
+    $('#ibm').hide('slow','linear');
+    $('#nav').show('slow','linear');
+    $('#daw').hide('slow','linear');
   }
 
 });
