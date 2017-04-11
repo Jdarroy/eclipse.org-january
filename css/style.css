@@ -36,15 +36,10 @@ body { background: #223660; font-family: 'Open Sans', sans-serif; font-size: 17p
 a { cursor: pointer; }
 /* a:hover { text-decoration: underline; } */
 
-img { border: 0; vertical-align: middle;  }
+img { border: 0; vertical-align: middle; }
 
 ul,
 ol { list-style-position: inside; }
-
-.icones{
-	width: 10%;
-	height: 10%;
-}
 
 /* This is a custom space to add the white horizontal bars between sections */
 .white-spacer { position: relative; z-index: 3; background: #fff; padding: 25px; }
@@ -301,12 +296,6 @@ ol { list-style-position: inside; }
 #lname { background: #fff url(images/ico-user.png) 14px 14px no-repeat; }
 #email { background: #fff url(images/ico-mail.png) 12px 14px no-repeat; }
 #message { background: #fff url(images/ico-pen.png) 12px 7px no-repeat; }
-
-#linkContact{
-	margin-left: auto;
-	margin-right: auto;
-	width: 100px;
-}
 
 .form-contact .checkbox { margin-top: 23px; }
 .form-label { font-size: 19px; color: #fff; }
