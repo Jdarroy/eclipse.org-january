@@ -1,13 +1,13 @@
 $(document).ready(function(){
 
-
+$('#int').hide();
 $('#daw').hide();
 $('#gda').hide();
 $('#ibm').hide();
 $('#nav').hide();
 
 
-var $ongletItems = $(".onglets a");
+var $ongletItems = $("#test a");
 
 $ongletItems.click(function(){
   $ongletItems.removeClass("active");
@@ -20,6 +20,7 @@ $ongletItems.click(function(){
     $('#ibm').hide('slow','linear');
     $('#nav').hide('slow','linear');
     $('#daw').show('slow','linear');
+    $('#int').hide('slow','linear');
   }
 
   if (dest == "#gda"){
@@ -27,6 +28,7 @@ $ongletItems.click(function(){
     $('#ibm').hide('slow','linear');
     $('#nav').hide('slow','linear');
     $('#daw').hide('slow','linear');
+    $('#int').hide('slow','linear');
   }
 
   if (dest == "#ibm"){
@@ -34,6 +36,7 @@ $ongletItems.click(function(){
     $('#ibm').show('slow','linear');
     $('#nav').hide('slow','linear');
     $('#daw').hide('slow','linear');
+    $('#int').hide('slow','linear');
   }
 
   if (dest == "#nav"){
@@ -41,6 +44,15 @@ $ongletItems.click(function(){
     $('#ibm').hide('slow','linear');
     $('#nav').show('slow','linear');
     $('#daw').hide('slow','linear');
+    $('#int').hide('slow','linear');
+  }
+
+  if (dest == "#int"){
+    $('#gda').hide('slow','linear');
+    $('#ibm').hide('slow','linear');
+    $('#nav').hide('slow','linear');
+    $('#daw').hide('slow','linear');
+    $('#int').show('slow','linear');
   }
 
 });
