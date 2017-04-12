@@ -400,7 +400,7 @@ ol { list-style-position: inside; }
 	.navbar-toggle { float: right; margin: 5px 10px 0 0; border: 2px; }
 	.navbar-toggle .icon-bar { height: 3px; }
 
-	.navbar-collapse { background: #2a1f1a; }
+	.navbar-collapse { background: #fff; }
 	.navbar-nav { float: none; }
 
 	.intro { min-height: 530px !important; }

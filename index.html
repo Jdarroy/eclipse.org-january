@@ -29,68 +29,50 @@
 
 <!-- Set the metadata type and the browser title -->
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Eclipse January</title>
 
 <!-- This next bit adds all the little browser favicons that show up in tabs
 and bookmarks and other such things. -->
-<link rel="icon" type="image/png" sizes="192x192"
-	href="images/favicon.ico">
-
-
-
-
+<link rel="icon" type="image/png" href="images/favicon.ico">
 <!-- Bootstrap CSS file link. This is Bootstrap 3.0.2, not 2.3.2! -->
 <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-<!-- Stylesheet from Bootstrap examples to pad the navbar -->
-<link href="css/navbar.css" rel="stylesheet" type="text/css">
 <!-- Extra style file with custom settings from Eclipse Scouts -->
 <link rel="stylesheet" href="css/style.css" type="text/css">
 
 </head>
-
 <!-- Create the body -->
 <body>
 
 	<!-- This file includes the two main parts of the body section of each page -
 the navbar and the carousel. -->
 
-
-
-
 	<!-- Create the Navbar -->
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default navbar-fixed-top">
 		<!-- Create the outermost container that will center everything -->
 		<div class="container">
 			<!-- Add the header -->
 			<div class="navbar-header">
 					<!-- This adds a button to toggle nav bar -->
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="myNavbar">
-						<span class="sr-only">Toggle navigation</span> <span
-							class="icon-bar"></span> <span class="icon-bar"></span>
-							<span class="icon-bar"></span>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span	class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span	class="icon-bar"></span>
 					</button>
-					<!-- Insert a logo with a link to the intro section -->
-					<a class="navbar-brand" href="#intro">
-            <img src="images/eclipse3.png" class="icones" alt="">
+					<a>
+            <img href="#intro" src="images/eclipse3.png" class="icones" alt="">
+				    <img href="https://science.eclipse.org/" src="images/eclipsesci.png" alt="">
           </a>
-					<a href="https://science.eclipse.org/">
-						<img src="images/eclipsesci.png" alt="">
-					</a>
 			</div>
 			<!-- Add the links -->
-			<div class="collapse navbar-collapse" id="myNavbar">
-				<ul class="nav navbar-nav">
-
-					<li class="active"><a href="#section-whatis">What is January</a></li>
-
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="nav navbar-nav" id="section">
+					<li><a href="#section-whatis">What is January</a></li>
 					<li><a href="#why">Why use it</a></li>
-
 					<li><a href="#try">Try it out</a></li>
-
           <li><a href="#download">Download</a></li>
-
           <li><a href="#whos">Who's involved</a></li>
-
           <li><a href="#contact">Contact</a></li>
 				</ul>
 			</div>
@@ -98,8 +80,6 @@ the navbar and the carousel. -->
 		</div>
 		<!-- End Navbar -->
 	</nav>
-
-
 
 	<!-- Start the "intro" banner image section -->
 	<div class="wrapper">
@@ -175,10 +155,8 @@ the navbar and the carousel. -->
 		                </br>
 		                <b>Focus on your algorithms.</b> By reusing this library it allows you to focus on your code.
 									</br><br><br>
-									<!--
 										Want to see who use it? <a href="https://jdarroy.github.io/eclipse.org-january/whos.html"> Click here !</a>
-									-->
-									</p>
+                  </p>
 									<!-- End section-who's involved-content -->
 								</div>
 								<!-- End content column -->
@@ -381,6 +359,13 @@ the navbar and the carousel. -->
 				Agent</a> <a target="_blank" href="http://www.eclipse.org/legal"
 				class="lnk-footer">Legal</a>
 
+			<!-- We'll add these back later.
+			    <a target="_blank" href="https://twitter.com/EclipseScout" class="btn-social"><i class="fa fa-twitter-square"></i></a>
+				<a target="_blank" href="http://www.bsi-software.com/scout" class="btn-social"><i class="fa fa-rss-square"></i></a>
+				<a target="_blank" href="https://plus.google.com/103593107241008270960" class="btn-social"><i class="fa fa-google-plus-square"></i></a>
+				<a target="_blank" href="https://www.facebook.com/EclipseScout" class="btn-social"><i class="fa fa-facebook-square"></i></a>
+				<a target="_blank" href="https://www.youtube.com/user/eclipsescout" class="btn-social"><i class="fa fa-youtube-square"></i></a>
+			-->
 			<!-- End the footer -->
 		</footer>
 
@@ -390,6 +375,7 @@ the navbar and the carousel. -->
 	<!-- Include JQuery and Bootstrap scripts. Putting them at the end preserves
 		website performance (the heavy stuff loads last). JQuery must be loaded
 		before bootstrap. -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.js"></script>
 
