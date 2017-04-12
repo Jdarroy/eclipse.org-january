@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+$('#intro').show();
 $('#int').hide();
 $('#daw').hide();
 $('#gda').hide();
@@ -7,7 +8,17 @@ $('#ibm').hide();
 $('#nav').hide();
 
 
-var $ongletItems = $("#test a");
+var $ongletItems = $("#section a");
+var $intro = $("#intro_section");
+
+$intro.click(function(){
+  $('#gda').hide('slow','linear');
+  $('#ibm').hide('slow','linear');
+  $('#nav').hide('slow','linear');
+  $('#daw').hide('slow','linear');
+  $('#int').hide('slow','linear');
+  $('#intro').show('slow','linear');
+});
 
 $ongletItems.click(function(){
   $ongletItems.removeClass("active");
@@ -21,6 +32,7 @@ $ongletItems.click(function(){
     $('#nav').hide('slow','linear');
     $('#daw').show('slow','linear');
     $('#int').hide('slow','linear');
+    $('#intro').hide('slow','linear');
   }
 
   if (dest == "#gda"){
@@ -29,6 +41,7 @@ $ongletItems.click(function(){
     $('#nav').hide('slow','linear');
     $('#daw').hide('slow','linear');
     $('#int').hide('slow','linear');
+    $('#intro').hide('slow','linear');
   }
 
   if (dest == "#ibm"){
@@ -37,6 +50,7 @@ $ongletItems.click(function(){
     $('#nav').hide('slow','linear');
     $('#daw').hide('slow','linear');
     $('#int').hide('slow','linear');
+    $('#intro').hide('slow','linear');
   }
 
   if (dest == "#nav"){
@@ -45,6 +59,7 @@ $ongletItems.click(function(){
     $('#nav').show('slow','linear');
     $('#daw').hide('slow','linear');
     $('#int').hide('slow','linear');
+    $('#intro').hide('slow','linear');
   }
 
   if (dest == "#int"){
@@ -53,6 +68,7 @@ $ongletItems.click(function(){
     $('#nav').hide('slow','linear');
     $('#daw').hide('slow','linear');
     $('#int').show('slow','linear');
+    $('#intro').hide('slow','linear');
   }
 
 });

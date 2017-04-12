@@ -54,33 +54,34 @@ and bookmarks and other such things. -->
 	<!-- This file includes the two main parts of the body section of each page -
 the navbar and the carousel. -->
 
+
+
+
 	<!-- Create the Navbar -->
-	<nav class="navbar navbar-default" role="navigation">
+	<nav class="navbar navbar-default">
 		<!-- Create the outermost container that will center everything -->
 		<div class="container">
 			<!-- Add the header -->
 			<div class="navbar-header">
-				<div class="navbar-header">
 					<!-- This adds a button to toggle nav bar -->
-					<button type="button" class="navbar-toggle">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="myNavbar">
 						<span class="sr-only">Toggle navigation</span> <span
-							class="icon-bar"></span> <span class="icon-bar"></span> <span
-							class="icon-bar"></span>
+							class="icon-bar"></span> <span class="icon-bar"></span>
+							<span class="icon-bar"></span>
 					</button>
 					<!-- Insert a logo with a link to the intro section -->
-					<a href="#intro">
+					<a class="navbar-brand" href="#intro">
             <img src="images/eclipse3.png" class="icones" alt="">
           </a>
 					<a href="https://science.eclipse.org/">
 						<img src="images/eclipsesci.png" alt="">
 					</a>
-				</div>
 			</div>
 			<!-- Add the links -->
-			<div class="collapse navbar-collapse">
+			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
 
-					<li><a href="#section-whatis">What is January</a></li>
+					<li class="active"><a href="#section-whatis">What is January</a></li>
 
 					<li><a href="#why">Why use it</a></li>
 
@@ -97,6 +98,8 @@ the navbar and the carousel. -->
 		</div>
 		<!-- End Navbar -->
 	</nav>
+
+
 
 	<!-- Start the "intro" banner image section -->
 	<div class="wrapper">
@@ -172,8 +175,10 @@ the navbar and the carousel. -->
 		                </br>
 		                <b>Focus on your algorithms.</b> By reusing this library it allows you to focus on your code.
 									</br><br><br>
+									<!--
 										Want to see who use it? <a href="https://jdarroy.github.io/eclipse.org-january/whos.html"> Click here !</a>
-                  </p>
+									-->
+									</p>
 									<!-- End section-who's involved-content -->
 								</div>
 								<!-- End content column -->
@@ -376,13 +381,6 @@ the navbar and the carousel. -->
 				Agent</a> <a target="_blank" href="http://www.eclipse.org/legal"
 				class="lnk-footer">Legal</a>
 
-			<!-- We'll add these back later.
-			    <a target="_blank" href="https://twitter.com/EclipseScout" class="btn-social"><i class="fa fa-twitter-square"></i></a>
-				<a target="_blank" href="http://www.bsi-software.com/scout" class="btn-social"><i class="fa fa-rss-square"></i></a>
-				<a target="_blank" href="https://plus.google.com/103593107241008270960" class="btn-social"><i class="fa fa-google-plus-square"></i></a>
-				<a target="_blank" href="https://www.facebook.com/EclipseScout" class="btn-social"><i class="fa fa-facebook-square"></i></a>
-				<a target="_blank" href="https://www.youtube.com/user/eclipsescout" class="btn-social"><i class="fa fa-youtube-square"></i></a>
-			-->
 			<!-- End the footer -->
 		</footer>
 
@@ -394,7 +392,6 @@ the navbar and the carousel. -->
 		before bootstrap. -->
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.js"></script>
-	<script src="js/mine.js"></script>
 
 	<!-- End the body -->
 </body>

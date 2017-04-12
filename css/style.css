@@ -31,7 +31,7 @@ html,
 body { height: 100%; }
 
 /* These are the default parameters for the <body></body> tags. */
-body { background: #223660; font-family: 'Open Sans', sans-serif; font-size: 17px; line-height: 1.1; color: #676767; min-width: 320px; }
+body {/* background: #223660;*/ font-family: 'Open Sans', sans-serif; font-size: 17px; line-height: 1.1; color: #676767; min-width: 320px; }
 
 a { cursor: pointer; }
 /* a:hover { text-decoration: underline; } */
@@ -97,7 +97,7 @@ ol { list-style-position: inside; }
 	#Header
 ========================================================================== */
 /* Default navbar settings like background color, branding image, etc. */
-.navbar { z-index: 3; position: absolute; top: 0; right: 17px; min-height: 0; width: 99%; margin-bottom: 0; padding: 5px 0; border: none; border-radius: 0; }
+.navbar { z-index: 3; position: absolute; top: 0; right: 17px; min-height: 0; width: 99%; margin-bottom: 0; padding: 0.2px 0; border: none; border-radius: 0; }
 .navbar-default { background-color: white; border-color: #223660; }
 .navbar-header { overflow: hidden; }
 .navbar-brand { overflow: hidden; float: left; height: 60px; width: 256px; background: url("../images/ice-logo_256x60.png") 0 0 no-repeat; text-indent: 150%; white-space: nowrap; }
@@ -308,7 +308,7 @@ ol { list-style-position: inside; }
 /* ==========================================================================
 	#Footer
 ========================================================================== */
-.footer { padding: 35px 0 31px; background: #223660; }
+.footer { padding: 35px 0 31px; background: grey; }
 .footer h5 { margin-bottom: 20px; font-size: 20px; color: #B0F7D5; }
 .footer-nav ul { list-style: none outside none; }
 .footer-nav li ~ li { margin-top: 2px; }
