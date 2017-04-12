@@ -1,23 +1,14 @@
 /*-------------------------------------------------------------------------------
- - Copyright (c) 2013, 2014 The Eclipse Scout Team and UT-Battelle, LLC.
+ - Copyright (c) 2013, 2017 The Eclipse Scout Team, UT-Battelle, LLC., Kichwa Coders Ltd and others.
  - All rights reserved. This program and the accompanying materials
  - are made available under the terms of the Eclipse Public License v1.0
  - which accompanies this distribution, and is available at
  - http://www.eclipse.org/legal/epl-v10.html
  -
  - Contributors:
- -   Initial API and implementation and/or initial documentation: The Eclipse
- -   Scout Team
- -   Modifications for the Eclipse ICE website: Jay Jay Billings
- -
- - Author Note:
- -   This page was largely developed by copying code from www.jayjaybillings.org
- -   and from www.eclipse.org/scout. In both cases, style files and html were
- -   modified. Some parts of the code may be taken from the original Eclipse ICE
- -   website, which was developed by Christopher Guindon and Taylor Patterson.
- -
- -   Jay Jay Billings, 20161016
- ------------------------------------------------------------------------------*/
+ -   Initial API and implementation and/or initial documentation: Kichwa Coders Ltd. adopted from Eclipse ICE webpage.
+ -------------------------------------------------------------------------------*/
+
 
 /* ==========================================================================
 	#Reset
@@ -58,7 +49,7 @@ ol { list-style-position: inside; }
 /* ==========================================================================
 	#Base "Wrapper" This is the container "behind" everything.
 ========================================================================== */
-.wrapper { position: relative; z-index: 2; left: 0%; background: #223660; height: 100%; overflow: auto; overflow-y: scroll; -webkit-overflow-scrolling: touch; }
+.wrapper { position: relative; z-index: 2; left: 0%; background: url(../images/whatis.png); height: 100%; overflow: auto; overflow-y: scroll; -webkit-overflow-scrolling: touch; }
 
 .radio label,
 .checkbox label { padding-left: 0; }
