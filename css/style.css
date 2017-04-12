@@ -97,8 +97,8 @@ ol { list-style-position: inside; }
 	#Header
 ========================================================================== */
 /* Default navbar settings like background color, branding image, etc. */
-.navbar { z-index: 3; position: absolute; top: 0; right: 17px; min-height: 0; width: 99%; margin-bottom: 0; padding: 17px 0; border: none; border-radius: 0; }
-.navbar-default { background-color: #223660; border-color: #223660; }
+.navbar { z-index: 3; position: absolute; top: 0; right: 17px; min-height: 0; width: 99%; margin-bottom: 0; padding: 5px 0; border: none; border-radius: 0; }
+.navbar-default { background-color: white; border-color: #223660; }
 .navbar-header { overflow: hidden; }
 .navbar-brand { overflow: hidden; float: left; height: 60px; width: 256px; background: url("../images/ice-logo_256x60.png") 0 0 no-repeat; text-indent: 150%; white-space: nowrap; }
 
@@ -106,7 +106,7 @@ ol { list-style-position: inside; }
 
 /* Link colors for navbar elements. */
 .navbar-nav { float: right; }
-.navbar-default .navbar-nav  li a { color: #fff; }
+.navbar-default .navbar-nav  li a { color: #2a1f1a; }
 .navbar-default .navbar-nav  li a:hover { color: #faa635; }
 
 /* woud be nice to have dark transparent menu background when menu is displayed over header image, and white background otherwise
