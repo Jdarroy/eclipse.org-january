@@ -134,7 +134,7 @@ ol { list-style-position: inside; }
 	#Intro - That is, the picture and text in the middle!
 ========================================================================== */
 .intro { position: relative; z-index: 1; min-height: 626px; }
-.intro-image { position: absolute; top: 80px; left: 0; min-width: 100%; min-height: 100%; }
+.intro-image { background: #000;position: absolute; top: 80px; left: 0; min-width: 100%; min-height: 100%; }
 .intro .container { position: absolute; top: 299px; width: 100%; z-index: 2; text-align: center; }
 .intro-image img { height: 626px; width: 100%; }
 
