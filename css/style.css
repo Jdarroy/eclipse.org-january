@@ -49,7 +49,7 @@ ol { list-style-position: inside; }
 /* ==========================================================================
 	#Base "Wrapper" This is the container "behind" everything.
 ========================================================================== */
-.wrapper { position: relative; z-index: 2; left: 0%; background: url(../images/whatis.png); height: 100%; overflow: auto; overflow-y: scroll; -webkit-overflow-scrolling: touch; }
+.wrapper { position: relative; z-index: 2; left: 0%; background: url(../images/whatis.png) no-repeat scroll 0 0 / 100% auto ;height: 100%; overflow: auto; overflow-y: scroll; -webkit-overflow-scrolling: touch; }
 
 .radio label,
 .checkbox label { padding-left: 0; }
