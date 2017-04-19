@@ -437,6 +437,6 @@ src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-op
 }
 
 span.glyphicon-search, span.glyphicon-ok, span.glyphicon-download-alt, span.glyphicon-folder-open, span.glyphicon-circle-exclamation-mark, span.glyphicon-exclamation-sign, span.glyphicon-user {
-    font-size: 5.2em;
+    font-size: 4.2em;
 		display:block;max-width:100%;height:auto
 }
