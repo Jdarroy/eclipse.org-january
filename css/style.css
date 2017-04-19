@@ -436,6 +436,11 @@ src: url('../fonts/glyphicons-halflings-regular.eot');
 src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
 }
 
-span.glyphicon-search, span.glyphicon-ok, span.glyphicon-download-alt, span.glyphicon-folder-open, span.glyphicon-circle-exclamation-mark, span.glyphicon-exclamation-sign, span.glyphicon-user {
+span.glyphicon-search, span.glyphicon-ok, span.glyphicon-download-alt, span.glyphicon-folder-open, span.glyphicon-circle-exclamation-mark, span.ion-bug, span.ion-ios-people {
     font-size: 6.2em;
+}
+
+span.glyphicon-search, span.glyphicon-ok, span.glyphicon-download-alt, span.glyphicon-folder-open, span.glyphicon-circle-exclamation-mark{
+	font-size: 5.2em;
+	display:block;max-width:100%;height:auto
 }
