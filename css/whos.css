@@ -140,19 +140,14 @@ pre.prettyprint, code.prettyprint {
 	-ms-border-radius: 8px;
 	-khtml-border-radius: 8px;
 	border-radius: 8px;
+  text-align: left;
 }
 
 pre.prettyprint {
-	width: 95%;
+	width: 130%;
 	margin: 1em auto;
 	padding: 1em;
 	white-space: pre-wrap;
-}
-
-@media(max-width:767px) {
- pre.prettyprint, code.prettyprint {
-   font-size: small;
- }
 }
 
 pre .str, code .str { color: #65B042; } /* string  - green */

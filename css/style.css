@@ -49,7 +49,7 @@ ol { list-style-position: inside; }
 /* ==========================================================================
 	#Base "Wrapper" This is the container "behind" everything.
 ========================================================================== */
-.wrapper { position: relative; z-index: 2; left: 0%; background: url(../images/whatis.png) scroll 0 0 / 100% auto ;height: 100%; overflow: auto; overflow-y: scroll; -webkit-overflow-scrolling: touch; }
+.wrapper { position: relative; z-index: 2; left: 0%; background: url(../images/datacenter.jpg) scroll 0 0 / 100% auto ;height: 100%; overflow: auto; overflow-y: scroll; -webkit-overflow-scrolling: touch; }
 
 .radio label,
 .checkbox label { padding-left: 0; }
@@ -268,7 +268,7 @@ ol { list-style-position: inside; }
 /* ==========================================================================
 	#Section Contact
 ========================================================================== */
-.section-contact { padding: 36px 0 74px; background: #5d5d5d; font-family: 'Dax-Regular', sans-serif; font-size: 45px; color: #fff; text-align: center; }
+.section-contact { padding: 36px 0 74px; background: #474747; font-family: 'Dax-Regular', sans-serif; font-size: 45px; color: #fff; text-align: center; }
 .contact a { font-size: 24px; font-family: 'Dax-Regular', sans-serif; font-size: 18px; color: #fff; text-align: center;}
 .form-contact .form-head { margin-bottom: 20px; text-align: center; }
 .form-contact h3 { margin-bottom: 3px; font-family: 'Dax-Regular', sans-serif; font-size: 45px; color: #fff; }
@@ -428,4 +428,15 @@ ol { list-style-position: inside; }
 	.footer-bar-logo { float: left; display: block; }
 
 	.footer { padding-left: 50px; }
+}
+
+@font-face {
+font-family: 'Glyphicons Halflings';
+src: url('../fonts/glyphicons-halflings-regular.eot');
+src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+span.glyphicon-search, span.glyphicon-ok, span.glyphicon-download-alt, span.glyphicon-folder-open, span.glyphicon-circle-exclamation-mark, span.glyphicon-exclamation-sign, span.glyphicon-user {
+    font-size: 5.2em;
+		display:block;max-width:100%;height:auto
 }

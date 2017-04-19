@@ -41,8 +41,7 @@
 
     <div class="container">
      <div class="row">
-       <section class="col-lg-12">
-         <div class="row">
+       <section class="">
            <article class="col-lg-12">
 
              <div class="intro_div" id="intro">
@@ -64,49 +63,27 @@
                                        <li class="active"><a href="#maven" data-toggle="tab" aria-expanded="true">Maven</a></li>
                                        <li><a href="#gradle" data-toggle="tab" aria-expanded="false">Gradle</a></li>
                                        <li><a href="#ivy" data-toggle="tab" aria-expanded="false">Ivy</a></li>
-                                       <li><a href="#download" data-toggle="tab" aria-expanded="false">Download</a></li>
                                    </ul>
                                    <div id="dependencies" class="tab-content">
-                                       <div class="tab-pane fade in active" id="maven">
-                                           <pre  class="prettyprint">
-                                             <span class="tag">&lt;dependency&gt;</span>
-                                             <span class="pln"></span>
-                                                <span class="tag">&lt;groupId&gt;</span>
-                                                <span class="pln">org.eclipse.collections</span>
-                                                <span class="tag">&lt;/groupId&gt;</span>
-                                                  <span class="pln"></span>
-                                                <span class="tag">&lt;artifactId&gt;</span>
-                                                <span class="pln">eclipse-collections-api</span>
-                                                <span class="tag">&lt;/artifactId&gt;</span>
-                                                  <span class="pln"></span>
-                                                <span class="tag">&lt;version&gt;</span>
-                                                <span class="pln">8.1.0</span>
-                                                <span class="tag">&lt;/version&gt;</span>
-                                                  <span class="pln"></span>
-                                             <span class="tag">&lt;/dependency&gt;</span>
-
-                                             &lt;dependency&gt;
-                                                &lt;groupId&gt;org.eclipse.collections&lt;/groupId&gt;
-                                                &lt;artifactId&gt;eclipse-collections&lt;/artifactId&gt;
-                                                &lt;version&gt;8.1.0&lt;/version>
-                                             &lt;/dependency&gt;</pre>
-                                       </div>
-                                       <div class="tab-pane fade" id="gradle">
-                                           <pre  class="prettyprint">
-               compile 'org.eclipse.collections:eclipse-collections-api:8.1.0'
-               compile 'org.eclipse.collections:eclipse-collections:8.1.0'</pre>
-                                       </div>
+                                     <div class="tab-pane fade in active" id="maven">
+                                       <pre  class="prettyprint">
+<span class="tag">&lt;dependency&gt;</span>
+    <span class="tag">&lt;groupId&gt;</span><span class="pln">com.github.yannick-mayeur</span><span class="tag">&lt;/groupId&gt;</span>
+    <span class="tag">&lt;artifactId&gt;</span><span class="pln">org.eclipse.january</span><span class="tag">&lt;/artifactId&gt;</span>
+    <span class="tag">&lt;version&gt;</span><span class="pln">2.1.0</span><span class="tag">&lt;/version&gt;</span>
+<span class="tag">&lt;/dependency&gt;</span>
+                                        </pre>
+                                     </div>
+                                     <div class="tab-pane fade" id="gradle">
+                                        <pre  class="prettyprint">
+<span class="pln">compile </span><span class="tag">'com.github.yannick-mayeur:org.eclipse.january:2.1.0'</span>
+                                        </pre>
+                                     </div>
                                        <div class="tab-pane fade" id="ivy">
                                            <pre  class="prettyprint">
-               &lt;dependency org="org.eclipse.collections" name="eclipse-collections-api" rev="8.1.0" /&gt;
-               &lt;dependency org="org.eclipse.collections" name="eclipse-collections" rev="8.1.0" /&gt;</pre>
+<span class="tag">&lt;dependency </span><span class="pln">org="com.github.yannick-mayeur" name="org.eclipse.january" rev="2.1.0"</span><span class="tag">/&gt;</span>
+                                            </pre>
                                        </div>
-                                       <div class="tab-pane fade" id="download">
-                                           <pre class="prettyprint">
-               <a target="_blank" href="http://mvnrepository.com/artifact/org.eclipse.collections/eclipse-collections-api/8.1.0">eclipse-collections-api-8.1.0.jar</a>
-               <a target="_blank" href="http://mvnrepository.com/artifact/org.eclipse.collections/eclipse-collections/8.1.0">eclipse-collections-8.1.0.jar</a></pre>
-                                       </div>
-
                                    </div>
                                </div>
                            </div>
@@ -162,7 +139,6 @@
              </div>
 
            </article>
-         </div>
        </section>
      </div>
     </div>
