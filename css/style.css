@@ -88,7 +88,20 @@ ol { list-style-position: inside; }
 	#Header
 ========================================================================== */
 /* Default navbar settings like background color, branding image, etc. */
+
+
+/********* COMMENT FOR ECLIPSE CON***************************
 .navbar { z-index: 3; position: absolute; top: 0; right: 17px; min-height: 0; width: 99%; margin-bottom: 0; padding: 0.2px 0; border: none; border-radius: 0; }
+********************************************/
+
+/***************** REMOVE AFTER ECLIPSE CON*****************/
+div.eclipse-con{
+	padding: 5px;
+	text-align: center;
+}
+.navbar { z-index: 3; position: absolute; right: 17px;}
+/***********************************************************/
+
 .navbar-default { background-color: white; border-color: #223660; }
 .navbar-header { overflow: hidden; }
 .navbar-brand { overflow: hidden; float: left; height: 60px; width: 256px; background: url("../images/ice-logo_256x60.png") 0 0 no-repeat; text-indent: 150%; white-space: nowrap; }
